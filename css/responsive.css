@@ -3,26 +3,46 @@
             width: 100%;
         }
     }
-
+    
     @media screen and (max-width: 480px) {
 
         .container {
             width: 100%;
-         }
-    
+        }
+        
         .row {
             flex-direction: column;
         }
-    
-        .row .col{
+        
+        .row .col {
             width: 100%;
         }
-    
+        
         .card {
             padding-top: 50px;
+            padding-bottom: 50px;
         }
-    
+        
         .col-right {
             padding-top: 50px;
         }
+        .steps{
+            margin: 0;
+        }
+        .why-us{
+            margin: 0;
+            background-color: black;
+        }
+        .container h2{
+            padding-top: 50px;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1160px) {
+        .container {
+            width: 100%;
+        }     
+        body{
+            overflow-x: hidden;
+        }              
     }
